@@ -1,0 +1,45 @@
+:root {
+    --font-color: #ffe837;
+    --bg-color: #3791ff;
+}
+
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    background: var(--bg-color);
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#userInput {
+    font-size: 2rem;
+    color: var(--font-color);
+}
+
+h2 {
+    font-size: 3rem;
+    color: var(--font-color);
+}
+
+input[class='numericValue'] {
+    -moz-appearance: textfield;
+    font-family: inherit;
+    font-weight: bold;
+    color: var(--bg-color);
+    background: var(--font-color);
+}
+
+#surfaceSize {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+#squareMeters {
+    padding-left: 3rem;
+}
+
+#enteredSurfaceSize {
+    width: 15rem;
+}
